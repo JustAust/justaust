@@ -1,0 +1,80 @@
+baseURL: "https://justaust.github.io/justaust/"
+languageCode: "en-us"
+title: "Justin Austin"
+theme: "./.."
+relativeURLs: true
+
+googleanalytics: UA-167646412-8
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+
+  favicon: "/images/fav.png"
+  description: "Python developer, civil engineer and a father"
+
+  # home
+  disable_home: false
+  profile_image: "/images/profile.png"
+  name: "Justin Austin"
+  profession: "Python developer"
+  github: "https://github.com/JustAust"
+  twitter: "https://twitter.com/JustAust"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Hi, I'm Justin, a software engineer, civil engineer, a crypto enthusiast and a proud father of 3 kids."
+  descripe_l2_person: "I also like dogs, board games and hiking."
+  skills:
+    - name: Python
+      percentage: 90
+    - name: HTML/CSS
+      percentage: 70
+    - name: C++
+      percentage: 75
+
+  # Experience
+  disable_experience: true
+
+  # Education
+  disable_education: false
+  education:
+    - degree: "B. Civil Engineering"
+      university: "Columbus State University"
+      startedyear: "2010"
+      graduation: "2014"
+
+  # Projects
+  disable_projects: true
+  projects:
+    - name: "Example project without details"
+      img: /images/project.jpg
+      githublink: "https://github.com/"
+      featuredlink: "/"
+      description: "Description of project"
+
+  # Achievements
+  disable_achievements: true
+
+  # Contact
+  disable_contact: false
+  contact_content: you can contact me at any time through my email
+  email: "lol@thisemailisfake.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: false
+
+  # Blog
+  showdescription: false
+  tweet: false
